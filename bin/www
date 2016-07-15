@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+'use strict'
+
+if (!require('piping')({ hook: true})) {
+    return;
+}
+require('../server');
+  
+  
